@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".CatalogFragment">
+
+    <!-- Background image -->
+    <ImageView
+        android:id="@+id/backgroundImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/background"
+        android:scaleType="centerCrop"
+        android:alpha="0.5" />
+
+    <!-- Catalog Heading -->
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What we offer"
+        android:textColor="#000000"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/baskervville_sc"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="35dp"
+        android:layout_marginStart="12dp"/>
+
+    <!-- History Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/historyBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Items"
+        android:textColor="@android:color/white"
+        android:textAllCaps="false"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:paddingStart="16dp"
+        android:paddingEnd="20dp"
+        android:layout_marginEnd="12dp"
+        app:icon="@drawable/history"
+        app:iconGravity="textEnd"
+        app:iconPadding="8dp"
+        app:iconSize="30dp"
+        app:iconTint="@android:color/white"
+        app:cornerRadius="20dp"
+        app:backgroundTint="#5E81F5"
+        app:layout_constraintBottom_toBottomOf="@id/titleText"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:visibility="visible"/>
+
+
+    <!-- Add Equipment Button (top-right, for admins) -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/addEquipmentBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Item"
+        android:textColor="@android:color/white"
+        android:textAllCaps="false"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:paddingStart="16dp"
+        android:paddingEnd="20dp"
+        android:layout_marginEnd="12dp"
+        app:icon="@drawable/ic_add"
+        app:iconGravity="textEnd"
+        app:iconPadding="8dp"
+        app:iconSize="35dp"
+        app:iconTint="@null"
+        app:cornerRadius="20dp"
+        app:backgroundTint="#5E81F5"
+        app:layout_constraintBottom_toBottomOf="@id/titleText"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- CardView (declared last so buttons appear on top) -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/catalogCard"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginTop="12dp"
+        app:cardCornerRadius="16dp"
+        app:cardBackgroundColor="#A0D8FF"
+        app:cardElevation="4dp"
+        app:layout_constraintTop_toBottomOf="@id/addEquipmentBtn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp"/>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

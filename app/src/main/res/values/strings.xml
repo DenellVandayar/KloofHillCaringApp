@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Kloofhill Caring App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="about_us_text">
+    <![CDATA[
+    Kloofhill Caring (NPO No. 002-528) is a community-focused non-profit organisation dedicated to improving lives through care, compassion, and practical support.
+
+    <br><br><font color="#4A63D1"><big><b>What We Do</b></big></font><br>
+    We hire out high-quality nursing equipment and provide expert advice to assist individuals and families in need of home-based care. In addition to our services, we actively support and donate to local charities, extending our reach beyond the immediate community.
+
+    <br><br><font color="#4A63D1"><big><b>Operating Hours</b></big></font><br>
+    We’re open on weekdays from 10:00 AM to 12:00 PM, offering friendly, personalised assistance to anyone who visits.
+
+    <br><br><font color="#4A63D1"><big><b>️Staff</b></big></font><br>
+    Our caring staff members are always ready to help with guidance, equipment needs, or general advice.
+    ]]>
+</string>
+
+
+</resources>

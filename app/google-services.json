@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "712776434962",
+    "project_id": "kloofhill-caring",
+    "storage_bucket": "kloofhill-caring.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:712776434962:android:50a64caf514d119ce45fcb",
+        "android_client_info": {
+          "package_name": "vcmsa.projects.kloofhillcaringapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9I0y6_RMTC3t1o5ggbzYU8HGg-BSeZbM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

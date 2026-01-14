@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_additem"
+        android:title="Add Item"
+        android:icon="@drawable/ic_additem" />
+
+    <item
+        android:id="@+id/nav_notify"
+        android:title="Notifications"
+        android:icon="@drawable/ic_notify" />
+
+    <item
+        android:id="@+id/nav_reserved_items"
+        android:title="Reserved Items"
+        android:icon="@drawable/reserved" />
+
+</menu>

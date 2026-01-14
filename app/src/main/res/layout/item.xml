@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp"
+    app:cardBackgroundColor="@android:color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp">
+
+        <!-- Equipment Image -->
+        <ImageView
+            android:id="@+id/itemImage"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="Equipment Image"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"/>
+
+        <!-- Admin Buttons (top-right corner) -->
+        <LinearLayout
+            android:id="@+id/adminButtonsLayout"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true">
+
+            <ImageButton
+                android:id="@+id/editBtn"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginEnd="8dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:src="@drawable/edit"
+                android:contentDescription="Edit"
+                android:scaleType="centerInside" />
+
+            <ImageButton
+                android:id="@+id/deleteBtn"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:src="@drawable/delete"
+                android:contentDescription="Delete"
+                android:scaleType="centerInside" />
+        </LinearLayout>
+
+        <!-- Reserve Button (far-right) -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/reserveBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Reserve"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            app:cornerRadius="12dp"
+            app:icon="@drawable/reserved"
+            app:iconGravity="textStart"
+            app:iconPadding="8dp"
+            app:iconTint="@android:color/white"
+            app:backgroundTint="#5E81F5"
+            app:rippleColor="#4DFFFFFF"
+            app:elevation="6dp"/>
+
+
+
+
+        <!-- Text Info -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/itemImage"
+            android:layout_marginStart="12dp"
+            android:layout_alignTop="@id/itemImage"
+            android:layout_toStartOf="@id/reserveBtn">
+
+            <TextView
+                android:id="@+id/itemName"
+                android:text="Item Name"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="#070707"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/itemPrice"
+                android:text="R100 per month"
+                android:textSize="14sp"
+                android:textColor="#5E81F5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"/>
+
+            <TextView
+                android:id="@+id/itemDeposit"
+                android:text="Deposit: R0"
+                android:textSize="14sp"
+                android:textColor="#5E81F5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/itemDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:textColor="#0A3161"
+                android:layout_marginTop="2dp"/>
+
+            <TextView
+                android:id="@+id/itemAvailability"
+                android:text="Available"
+                android:textStyle="bold"
+                android:textColor="#0DA13C"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme -->
+    <style name="Base.Theme.KloofhillCaringApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Make the status bar white with dark icons -->
+        <item name="android:statusBarColor">@android:color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Theme.KloofhillCaringApp" parent="Base.Theme.KloofhillCaringApp" />
+</resources>

@@ -1,0 +1,83 @@
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp"
+    app:strokeColor="#000000"
+    app:strokeWidth="3dp"
+    app:cardBackgroundColor="#FFFFFF"
+    android:foreground="?attr/selectableItemBackground">
+
+<RelativeLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:padding="12dp">
+
+<!-- Admin Delete Button (top-right corner) -->
+<ImageButton
+    android:id="@+id/deleteBtn"
+    android:layout_width="35dp"
+    android:layout_height="35dp"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentTop="true"
+    android:background="?attr/selectableItemBackgroundBorderless"
+    android:src="@drawable/delete"
+    android:contentDescription="Delete Reservation"
+    android:scaleType="centerInside"/>
+
+<!-- Text Info -->
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_toStartOf="@id/deleteBtn"
+    android:layout_alignParentStart="true">
+
+    <TextView
+        android:id="@+id/resItemName"
+        android:text="Item Name"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="#070707"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/resUserName"
+        android:text="User: John Doe"
+        android:textSize="14sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"/>
+
+    <TextView
+        android:id="@+id/resUserEmail"
+        android:text="Email: john@example.com"
+        android:textSize="14sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"/>
+
+    <TextView
+        android:id="@+id/resComment"
+        android:text="Comment: Needs it for two weeks"
+        android:textSize="14sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"/>
+
+    <TextView
+        android:id="@+id/resTimestamp"
+        android:text="19/10/2025 16:20"
+        android:textSize="12sp"
+        android:textColor="#888888"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"/>
+</LinearLayout>
+
+</RelativeLayout>
+    </com.google.android.material.card.MaterialCardView>
