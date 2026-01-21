@@ -93,11 +93,11 @@ The mobile app interacts directly with Firebase services to ensure **real-time s
 
 ## 🧑‍💼 Authors
 
-- **Cade Gamble - ST10262209**
-- **Denell Vandayar - ST10373357** 
-- **Reece Corbett - ST10279058** 
-- **Azande Mnguni - ST10365275** 
-- **Kiera Meth - ST10279488** 
+- **Cade Gamble**
+- **Denell Vandayar** 
+- **Reece Corbett** 
+- **Azande Mnguni** 
+- **Kiera Meth** 
  
 Developers of the Kloofhill Caring Mobile App
 
