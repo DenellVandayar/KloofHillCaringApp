@@ -48,8 +48,8 @@ Administrators are provided with special privileges and different pages to **add
 ## 👤 User Experience
 
 <p align="center">
-  <img width="220" height="1612" alt="WhatsApp Image 2026-05-24 at 12 48 48" src="https://github.com/user-attachments/assets/38861be7-3d93-4962-95f6-6a95f3a504b6" />
-<img width="220" height="1612" alt="WhatsApp Image 2026-05-24 at 12 48 47" src="https://github.com/user-attachments/assets/8c915030-cefa-42bb-90cd-816f2a387a0d" />
+  <img width="220" alt="WhatsApp Image 2026-05-24 at 12 48 48" src="https://github.com/user-attachments/assets/38861be7-3d93-4962-95f6-6a95f3a504b6" />
+<img width="220" alt="WhatsApp Image 2026-05-24 at 12 48 47" src="https://github.com/user-attachments/assets/8c915030-cefa-42bb-90cd-816f2a387a0d" />
 
   <img src="images/home-screen.png" width="220"/>
   <img src="images/equipment-screen.png" width="220"/>
