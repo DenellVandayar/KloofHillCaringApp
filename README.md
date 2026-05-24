@@ -52,21 +52,19 @@ Administrators are provided with special privileges and different pages to **add
 <img width="220" alt="WhatsApp Image 2026-05-24 at 12 48 47" src="https://github.com/user-attachments/assets/8c915030-cefa-42bb-90cd-816f2a387a0d" />
 <img width="220" alt="WhatsApp Image 2026-05-24 at 12 48 48 (1)" src="https://github.com/user-attachments/assets/c334c4cb-eb88-4a0c-9c96-575513ba9e76" />
 <img width="220" alt="WhatsApp Image 2026-05-24 at 12 48 48 (2)" src="https://github.com/user-attachments/assets/1c5e65c0-5e5f-4600-b5fc-5d6834e580f7" />
-<img width="714" height="1599" alt="WhatsApp Image 2026-05-24 at 12 48 56" src="https://github.com/user-attachments/assets/f1912bd4-93f7-4f2d-8a16-a83bbc33456b" />
-<img width="714" height="1599" alt="WhatsApp Image 2026-05-24 at 12 48 56 (2)" src="https://github.com/user-attachments/assets/dba3ed7b-d4d3-4add-940a-11d89f8c4203" />
+<img width="220" alt="WhatsApp Image 2026-05-24 at 12 48 56" src="https://github.com/user-attachments/assets/f1912bd4-93f7-4f2d-8a16-a83bbc33456b" />
+<img width="220" alt="WhatsApp Image 2026-05-24 at 12 48 56 (2)" src="https://github.com/user-attachments/assets/dba3ed7b-d4d3-4add-940a-11d89f8c4203" />
 <img width="220" alt="WhatsApp Image 2026-05-24 at 12 48 49" src="https://github.com/user-attachments/assets/414efb6f-4859-4584-a38e-15be88bd2b2b" />
 <img width="220" alt="WhatsApp Image 2026-05-24 at 12 48 50 (1)" src="https://github.com/user-attachments/assets/5c3d0bc1-5162-4c77-a29c-76905b44d076" />
 <img width="220" alt="WhatsApp Image 2026-05-24 at 12 48 49 (2)" src="https://github.com/user-attachments/assets/86c3647b-79a7-43c4-83f0-7d3260bd199b" />
-<img width="714" height="1599" alt="WhatsApp Image 2026-05-24 at 12 48 56 (1)" src="https://github.com/user-attachments/assets/6332313d-0f18-4596-8d4e-3f673d8d46b9" />
-<img width="720" height="1612" alt="WhatsApp Image 2026-05-24 at 12 48 57" src="https://github.com/user-attachments/assets/806ec3e6-83a1-4820-9dca-8fbf4e830c36" />  
+<img width="220" alt="WhatsApp Image 2026-05-24 at 12 48 56 (1)" src="https://github.com/user-attachments/assets/6332313d-0f18-4596-8d4e-3f673d8d46b9" />
+<img width="220" alt="WhatsApp Image 2026-05-24 at 12 48 57" src="https://github.com/user-attachments/assets/806ec3e6-83a1-4820-9dca-8fbf4e830c36" />  
 <img width="220" alt="WhatsApp Image 2026-05-24 at 12 48 50" src="https://github.com/user-attachments/assets/5507021e-be42-46bc-9327-95bda9cb9f4b" />
 
 </p>
 
 <p align="center">
-  <img src="images/reservation-screen.png" width="220"/>
-  <img src="images/donation-screen.png" width="220"/>
-  <img src="images/profile-screen.png" width="220"/>
+
 </p>
 
 ---
@@ -74,14 +72,15 @@ Administrators are provided with special privileges and different pages to **add
 ## 🛠️ Admin Experience
 
 <p align="center">
-  <img src="images/admin-dashboard.png" width="220"/>
-  <img src="images/manage-equipment.png" width="220"/>
-  <img src="images/view-reservations.png" width="220"/>
+<img width="220" alt="WhatsApp Image 2026-05-24 at 12 48 50 (2)" src="https://github.com/user-attachments/assets/e4187a35-f273-4d1e-b5c7-bd625fe43588" />
+<img width="220" alt="WhatsApp Image 2026-05-24 at 12 48 50 (3)" src="https://github.com/user-attachments/assets/720df662-016d-4dcd-b682-004af0822435" />
+<img width="220" alt="WhatsApp Image 2026-05-24 at 12 48 55 (1)" src="https://github.com/user-attachments/assets/675961aa-dee4-4c96-96c9-20d662bb39e3" />
+<img width="220" alt="WhatsApp Image 2026-05-24 at 12 48 55 (2)" src="https://github.com/user-attachments/assets/83dbd127-37d1-4c5e-834c-59ca8cf9f9ab" />
+<img width="220" alt="WhatsApp Image 2026-05-24 at 12 48 55" src="https://github.com/user-attachments/assets/06d8ee45-168c-486c-9a50-feb22770b72a" />
 </p>
 
 <p align="center">
-  <img src="images/view-donations.png" width="220"/>
-  <img src="images/view-messages.png" width="220"/>
+
 </p>
 
 ---
