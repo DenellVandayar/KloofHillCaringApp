@@ -43,6 +43,40 @@ Administrators are provided with special privileges and different pages to **add
 
 ---
 
+# 🖼️ Application Preview
+
+## 👤 User Experience
+
+<p align="center">
+  <img width="720" height="1612" alt="WhatsApp Image 2026-05-24 at 12 48 48" src="https://github.com/user-attachments/assets/38861be7-3d93-4962-95f6-6a95f3a504b6" />
+<img width="720" height="1612" alt="WhatsApp Image 2026-05-24 at 12 48 47" src="https://github.com/user-attachments/assets/8c915030-cefa-42bb-90cd-816f2a387a0d" />
+
+  <img src="images/home-screen.png" width="220"/>
+  <img src="images/equipment-screen.png" width="220"/>
+</p>
+
+<p align="center">
+  <img src="images/reservation-screen.png" width="220"/>
+  <img src="images/donation-screen.png" width="220"/>
+  <img src="images/profile-screen.png" width="220"/>
+</p>
+
+---
+
+## 🛠️ Admin Experience
+
+<p align="center">
+  <img src="images/admin-dashboard.png" width="220"/>
+  <img src="images/manage-equipment.png" width="220"/>
+  <img src="images/view-reservations.png" width="220"/>
+</p>
+
+<p align="center">
+  <img src="images/view-donations.png" width="220"/>
+  <img src="images/view-messages.png" width="220"/>
+</p>
+
+---
 ## 🧩 Tech Stack
 
 | Layer | Technology |
