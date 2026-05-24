@@ -133,14 +133,9 @@ The mobile app interacts directly with Firebase services to ensure **real-time s
 
 ---
 
-## 🧑‍💼 Authors
-
-- **Cade Gamble**
+## 🧑‍💼 Author
 - **Denell Vandayar** 
-- **Reece Corbett** 
-- **Azande Mnguni** 
-- **Kiera Meth** 
- 
+
 Developers of the Kloofhill Caring Mobile App
 
 ---
